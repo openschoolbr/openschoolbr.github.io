@@ -1,1 +1,8 @@
-theme: jekyll-theme-cayman
+title: Open School Brasil
+description: Uma escola aberta, da comunidade, para a comunidade!
+email: openschoolbr@gmail.com
+user: openschoolbr
+baseurl: ""
+
+# Build settings
+markdown: kramdown
