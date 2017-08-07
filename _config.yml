@@ -6,3 +6,7 @@ baseurl: ""
 
 # Build settings
 markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
