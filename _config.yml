@@ -3,6 +3,7 @@ description: Uma escola aberta, da comunidade, para a comunidade!
 email: openschoolbr@gmail.com
 user: openschoolbr
 baseurl: ""
+analytics: UA-104189172-1
 
 # Build settings
 markdown: kramdown
