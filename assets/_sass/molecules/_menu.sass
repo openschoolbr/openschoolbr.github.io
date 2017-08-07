@@ -9,22 +9,22 @@
   @extend %inline-flex
 
 .menu-item
-  padding-bottom: .5rem
-  border-bottom: 1px solid transparent
-  font-size: .9rem
-  text-transform: uppercase
   +transition(.3s all ease)
 
   @media (min-width: 31.25rem)
     &:hover
-      border-bottom: 1px solid currentColor
       +translate(0, -.75rem)
 
   &:not(:last-child)
     margin-right: 2rem
 
 .menu-link
+  padding-bottom: .5rem
+  border-bottom: 1px solid transparent
+  font-size: .9rem
+  text-transform: uppercase
   +transition(.3s all ease)
 
   &:hover
     color: $highlight
+    border-bottom: 1px solid currentColor
