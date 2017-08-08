@@ -9,20 +9,15 @@
   @extend %inline-flex
 
 .menu-item
-  +transition(.3s all ease)
 
   @media (min-width: 31.25rem)
-    &:hover
-      +translate(0, -.25rem)
-
-  &:not(:last-child)
+  &
     margin-right: 2rem
 
 .menu-link
-  padding-bottom: .5rem
   font-size: .9rem
   text-transform: uppercase
-  +transition($transition)
 
   &:hover
     color: $highlight
+    border-bottom: 1px solid $highlight
