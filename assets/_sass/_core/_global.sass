@@ -1,0 +1,18 @@
+*
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+
+html
+  height: 100%
+  +translate3d(0, 0, 0)
+
+body
+  height: 100%
+  font:
+    family: $font-family
+    size: $font-size
+    weight: normal
+  @extend %flexbox
+  +flex-direction(column)
+  -webkit-font-smoothing: antialiased

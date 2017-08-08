@@ -1,0 +1,16 @@
+%button
+  display: inline-block
+  margin: 1rem auto
+  padding: 1rem 1.25rem
+  font:
+    size: .9rem
+    weight: bold
+  color: $light
+  text-transform: uppercase
+  background-color: $highlight
+  +border-radius(.625rem)
+  +transition(.3s all ease)
+
+  &:hover
+    +box-shadow(0 .25rem .625rem rgba($dark, .25))
+    +translate(0, -.5rem)

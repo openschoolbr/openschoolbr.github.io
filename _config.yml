@@ -1,0 +1,17 @@
+title: Open School Brasil
+description: Uma escola aberta, da comunidade, para a comunidade!
+email: openschoolbr@gmail.com
+user: openschoolbr
+baseurl: ""
+analytics: UA-104189172-1
+
+# Build settings
+markdown: kramdown
+
+sass:
+  sass_dir: assets/_sass
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
