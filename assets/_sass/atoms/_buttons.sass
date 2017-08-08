@@ -9,8 +9,8 @@
   text-transform: uppercase
   background-color: $highlight
   +border-radius(.625rem)
-  +transition(.3s all ease)
+  +transition($transition)
 
   &:hover
-    +box-shadow(0 .25rem .625rem rgba($dark, .25))
-    +translate(0, -.5rem)
+    +box-shadow(0 .25rem .625rem rgba($highlight, .35))
+    +translate(0, -.25rem)
