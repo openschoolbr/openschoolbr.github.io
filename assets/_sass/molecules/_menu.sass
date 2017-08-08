@@ -13,18 +13,16 @@
 
   @media (min-width: 31.25rem)
     &:hover
-      +translate(0, -.75rem)
+      +translate(0, -.25rem)
 
   &:not(:last-child)
     margin-right: 2rem
 
 .menu-link
   padding-bottom: .5rem
-  border-bottom: 1px solid transparent
   font-size: .9rem
   text-transform: uppercase
-  +transition(.3s all ease)
+  +transition($transition)
 
   &:hover
     color: $highlight
-    border-bottom: 1px solid currentColor
