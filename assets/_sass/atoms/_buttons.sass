@@ -8,16 +8,9 @@
   color: $light
   text-transform: uppercase
   background-color: $highlight
-  border: 4px double $highlight
   +border-radius(.625rem)
   +transition($transition)
 
-  &:after
-    content: ''
-    position: absolute
-    z-index: -1
-    +transition($transition)
-
   &:hover
-    background: transparent
-    color: $highlight
+    +box-shadow(0 .25rem .625rem rgba($highlight, .35))
+    +translate(0, -.25rem)
